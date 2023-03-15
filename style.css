@@ -9,6 +9,34 @@ html, body{
     background-color: #1f2937;
 
 }
+
+#headercontainer{
+    width: 80vw;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+
+#headerlinks{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#headerlinks > a{
+    font-size: 30px;
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 #content{
 
 }
