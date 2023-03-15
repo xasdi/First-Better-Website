@@ -1,6 +1,7 @@
 html, body{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 #welcome{
     width: 100vw;
@@ -80,7 +81,7 @@ a{
 }
 
 #messageimage{
-    margin-left: 40px;
+    margin-left: 1vw;
     width: 43.8vw;
     height: 11.8vw;
     background-color: #6d747d;
@@ -91,8 +92,76 @@ a{
 }
 
 #content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#randominformation{
+    display: flex;
+    justify-content: center;
+    height: 35vw;
+    background-color: white;
 
 }
-#footer{
 
+#randominformationcontainer{
+    text-align: center;
+    display: flex;
+    
+    flex-direction: column;
 }
+
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    background-color: #e5e7eb;
+}
+
+#calltoaction{
+    display: flex;
+    justify-content: center;
+    height: 35vw;
+    background-color: white;
+}
+
+#quotecontainer > pre{
+    font-size: 30px;
+    font-style: italic;
+}
+
+#quotecontainer > pre > span{
+    font-weight: bold;
+    
+}
+
+#randominformationcontainer > p {
+    font-size: 30px;
+}
+
+#imagerow{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.imagerowitem{
+    text-align: center;
+}
+
+.imagerowimage{
+    border: 5px #3b82f6 solid;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 5px;
+}
+
+#imagerowimagetext{
+    
+    width: 10vw ;
+    height: 10vw;
+}
+
