@@ -1,0 +1,17 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+#welcome{
+    width: 100vw;
+    height: 35vw;
+    color: white;
+    background-color: #1f2937;
+
+}
+#content{
+
+}
+#footer{
+
+}
