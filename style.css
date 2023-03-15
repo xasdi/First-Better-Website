@@ -4,14 +4,14 @@ html, body{
 }
 #welcome{
     width: 100vw;
-    height: 35vw;
+    height: 26vw;
     color: white;
     background-color: #1f2937;
 
 }
 
 #headercontainer{
-    width: 80vw;
+    width: 70vw;
 }
 
 #header{
@@ -41,10 +41,11 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 5vw;
+    
 }
 
 #websiteinfocontainer{
-    width: 80vw;
+    width: 70vw;
     
 }
 
@@ -52,11 +53,16 @@ a{
     width: 24vw;
     font-size: 30px;
     float: left;
+    height: 17vw;
 }
 
-#welcomemessage > span{
+
+#title{
+    font-size: 50px;
+}
+#messagecontent{
     font-size: 16px;
-    
+    line-height: 1;
 }
 
 .signupbutton{
@@ -74,10 +80,14 @@ a{
 }
 
 #messageimage{
-    width: 400px;
-    height: 200px;
+    margin-left: 40px;
+    width: 43.8vw;
+    height: 11.8vw;
     background-color: #6d747d;
     float: left;
+    text-align: center;
+    color: white;
+    
 }
 
 #content{
