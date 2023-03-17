@@ -59,7 +59,8 @@ a{
 
 
 #title{
-    font-size: 50px;
+    font-size: 48px;
+    font-weight: bolder;
 }
 #messagecontent{
     font-size: 16px;
@@ -74,6 +75,7 @@ a{
     border-radius: 5px;
     text-align: center;
     user-select: none;
+    color: white;
 }
 
 .signupbutton:hover{
@@ -124,6 +126,7 @@ a{
 #calltoaction{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 35vw;
     background-color: white;
 }
@@ -150,6 +153,7 @@ a{
 
 .imagerowitem{
     text-align: center;
+    word-wrap: break-word;
 }
 
 .imagerowimage{
@@ -159,9 +163,18 @@ a{
     border-radius: 5px;
 }
 
-#imagerowimagetext{
-    
+.imagerowimagetext{
+    word-wrap: break-word;
     width: 10vw ;
     height: 10vw;
+}
+
+#calltoactiondivtext{
+
+}
+
+#calltoactiondiv > .signupbutton{
+    width: 100px;
+    border: none;
 }
 
